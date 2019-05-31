@@ -5,17 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Word Guess Game</title>
-    <link rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Font+Name">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    Header with Title and images
+     <!-- Header with Title and images-->
+    <!-- <img src="assets/images/images.png" alt="harry potter glasses"> -->
+    <h1>Guess The Name</h1>
+    <h2>Harry Potter Edition</h2>
 
-    Game: contained in box with dotted line border
-        Instructions: Press any key to get started
+
+   
+    <!-- Game: contained in box with dotted line border -->
+<div class= "container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="assets/images/images.png" alt="harry potter glasses">
+        </div>
+        <div class="col-md-6">
+            <p id="directions">Instructions: Press any key to get started</p>
+            <p id="score"></p>
+            <br/>
+            <p>Current Word:</p>
+            <br/>
+            <p id="word"></p>
+            <br/>
+            <p id="guesses"></p>
+            <br/>
+            <p id="lettersGuessed"></p>
+        </div>
+    </div>
+</div>
+        <!-- Instructions: Press any key to get started
         (Display Win count)
         Current Word
         -----------
@@ -25,7 +49,7 @@
         (Display letters typed so far)
 
         Left column - display starting image
-        upon win - change image, play sound
+        upon win - change image, play sound -->
 
 
 
