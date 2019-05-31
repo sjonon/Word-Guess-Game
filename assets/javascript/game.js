@@ -16,6 +16,11 @@ var guessesRemaining = 15;
 var letters = [];
 var userScore = 0
 
+// //variables and function to generate random image
+// var image = document.getElementsByClassName(image);
+// var images = ["crest.jpg", "harry-potter_header11.jpg", "harrypotter.jpeg", "hedwig.png", "images.png", "train.jpg"]
+// function randomImage () { var num = images[Math.floor(Math.random() * images.length)];
+//     document.image.src = "assets/images/"images[num];}
 
 
 //begin script for start of game - these may need to be broken out differently to make the game more responsive
@@ -38,6 +43,7 @@ document.onkeypress = function (event) {
     }
     if (hiddenWord.indexOf("_") === -1) {
         userScore++;
+        // - callback for image function ?? randomImage();
       } else if (guessesRemaining === 0) {
         console.log("they lose");
       }
